@@ -59,21 +59,21 @@
   const featuredServices = [
     {
       title: 'General Medicine',
-      description: 'Comprehensive primary care services for patients of all ages, including routine check-ups, preventive care, and treatment of common illnesses.',
+      description: 'Comprehensive primary healthcare services for adults, including preventive care, diagnosis, and treatment of various medical conditions. Our experienced physicians provide personalized care for your overall health and well-being.',
       icon: 'M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80'
-    },
-    {
-      title: 'Cardiology',
-      description: 'Expert care for heart conditions, including diagnostic testing, treatment, and preventive care for cardiovascular health.',
-      icon: 'M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80'
     },
     {
-      title: 'Pediatrics',
-      description: 'Comprehensive healthcare for children from birth through adolescence, focusing on growth, development, and preventive care.',
-      icon: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z',
+      title: 'Orthopaedics',
+      description: 'Expert care for bone and joint disorders, sports injuries, and musculoskeletal conditions. Our orthopedic specialists use advanced techniques and technology to help you regain mobility and live pain-free.',
+      icon: 'M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z',
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80'
+    },
+    {
+      title: 'General Surgery',
+      description: 'Comprehensive surgical care for various conditions, including minimally invasive procedures and advanced surgical techniques. Our skilled surgeons are committed to providing safe and effective surgical solutions.',
+      icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2',
+      image: 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80'
     }
   ];
 
