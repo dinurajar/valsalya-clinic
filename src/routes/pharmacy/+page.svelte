@@ -68,7 +68,7 @@
 
 <div class="bg-white">
   <!-- Hero Section -->
-  <section class="relative py-20 bg-gradient-to-r from-[#3F7D20]/10 to-white">
+  <section class="relative py-20 bg-gradient-to-r from-[#5CA595]/10 to-white">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center" in:fade={{ duration: 500 }}>
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Pharmacy Services</h1>
@@ -110,22 +110,6 @@
           </div>
         {/each}
       </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="py-16 bg-[#5CA595]">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-white mb-6">Need Medications?</h2>
-      <p class="text-xl text-white/90 mb-8">
-        Visit our pharmacy or contact us for prescription refills and medication inquiries.
-      </p>
-      <a
-        href="/contact"
-        class="inline-block bg-white text-[#5CA595] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
-      >
-        Contact Us
-      </a>
     </div>
   </section>
 </div>

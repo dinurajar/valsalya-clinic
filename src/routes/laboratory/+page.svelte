@@ -20,23 +20,17 @@
     }
   ];
 
-  const features = [
-    {
-      title: 'State-of-the-Art Equipment',
-      description: 'Our laboratory is equipped with the latest technology for accurate and reliable test results.'
-    },
-    {
-      title: 'Quick Turnaround',
-      description: 'Most test results are available within 24 hours, with urgent tests processed even faster.'
-    },
-    {
-      title: 'Expert Staff',
-      description: 'Our team of qualified technicians and pathologists ensures the highest quality of testing.'
-    },
-    {
-      title: 'Online Results',
-      description: 'Access your test results securely online through our patient portal.'
-    }
+  const packages = [
+    { name: 'Basic Diabetic Package', originalPrice: 1000, offerPrice: 750 },
+    { name: 'Premium Diabetic Package', originalPrice: 3300, offerPrice: 2500 },
+    { name: 'Basic Health Package', originalPrice: 3000, offerPrice: 2200 },
+    { name: 'Premium Health Package', originalPrice: 4200, offerPrice: 3200 },
+    { name: 'Wellness Male Package', originalPrice: 3500, offerPrice: 2800 },
+    { name: 'Wellness Female package', originalPrice: 2700, offerPrice: 2000 },
+    { name: 'Mother Care Package', originalPrice: 4500, offerPrice: 3100 },
+    { name: 'Child Care Package', originalPrice: 3100, offerPrice: 1900 },
+    { name: 'Elderly package', originalPrice: 5700, offerPrice: 4300 },
+    { name: 'Full Body Package', originalPrice: 7000, offerPrice: 5500 }
   ];
 
   let visible = false;
@@ -53,7 +47,7 @@
 
 <div class="bg-white">
   <!-- Hero Section -->
-  <section class="relative py-20 bg-gradient-to-r from-[#3F7D20]/10 to-white">
+  <section class="relative py-20 bg-gradient-to-r from-[#5CA595]/10 to-white">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center" in:fade={{ duration: 500 }}>
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Laboratory Services</h1>
@@ -83,34 +77,25 @@
     </div>
   </section>
 
-  <!-- Features Section -->
+  <!-- Packages Section -->
   <section class="py-16 bg-[#5CA595]/10">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12 text-[#5CA595]">Why Choose Our Laboratory?</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {#each features as feature}
+      <h2 class="text-3xl font-bold text-center mb-12 text-[#5CA595]">Various Laboratory Packages</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {#each packages as pkg}
           <div class="bg-white rounded-lg p-6 shadow-md" in:fade={{ duration: 500, delay: 300 }}>
-            <h3 class="text-xl font-semibold mb-3 text-[#5CA595]">{feature.title}</h3>
-            <p class="text-gray-600">{feature.description}</p>
+            <h3 class="text-xl font-semibold mb-4 text-[#5CA595]">{pkg.name}</h3>
+            <div class="flex items-center justify-between">
+              <div class="text-gray-500">
+                <span class="line-through">Rs.{pkg.originalPrice}</span>
+              </div>
+              <div class="text-red-500 font-bold animate-pulse">
+                Rs.{pkg.offerPrice}
+              </div>
+            </div>
           </div>
         {/each}
       </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="py-16 bg-[#5CA595]">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-white mb-6">Need a Test?</h2>
-      <p class="text-xl text-white/90 mb-8">
-        Book your laboratory test today and get accurate results quickly.
-      </p>
-      <a
-        href="/appointment"
-        class="inline-block bg-white text-[#5CA595] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
-      >
-        Book Appointment
-      </a>
     </div>
   </section>
 </div>
@@ -122,5 +107,18 @@
   }
   .font-ethnocentric {
     font-family: 'Ethnocentric', sans-serif;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 </style> 

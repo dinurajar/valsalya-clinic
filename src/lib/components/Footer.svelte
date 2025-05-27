@@ -4,6 +4,31 @@
 
 <footer class="bg-[#5CA595] text-white py-8">
   <div class="container mx-auto px-4">
+    <!-- Action Buttons -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+      <!-- Book Appointment Group -->
+      <div class="text-center">
+        <h3 class="text-xl font-bold text-white mb-4">Ready to Get Started?</h3>
+        <a
+          href="/appointment"
+          class="inline-block bg-white text-[#5CA595] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors text-center"
+        >
+          Book Appointment
+        </a>
+      </div>
+
+      <!-- Contact Us Group -->
+      <div class="text-center">
+        <h3 class="text-xl font-bold text-white mb-4">Need Help?</h3>
+        <a
+          href="/contact"
+          class="inline-block bg-white text-[#5CA595] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors text-center"
+        >
+          Contact Us
+        </a>
+      </div>
+    </div>
+
     <div class="flex flex-col md:flex-row justify-between items-center">
       <!-- Social Media Links -->
       <div class="flex space-x-6 mb-4 md:mb-0">

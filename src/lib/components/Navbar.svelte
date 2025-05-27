@@ -3,12 +3,11 @@
   import { onMount } from 'svelte';
   
   const navItems = [
-    { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
     { href: '/doctors', label: 'Doctors' },
     { href: '/laboratory', label: 'Laboratory' },
     { href: '/pharmacy', label: 'Pharmacy' },
-    { href: '/contact', label: 'Contact' }
+    { href: '/contact', label: 'Contact Us' }
   ];
 
   let isMenuOpen = false;

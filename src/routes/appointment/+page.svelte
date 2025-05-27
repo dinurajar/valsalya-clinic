@@ -49,7 +49,7 @@
 
 <div class="bg-white">
   <!-- Hero Section -->
-  <section class="relative py-20 bg-gradient-to-r from-[#3F7D20]/10 to-white">
+  <section class="relative py-20 bg-gradient-to-r from-[#5CA595]/10 to-white">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto text-center" in:fade={{ duration: 500 }}>
         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Book an Appointment</h1>
@@ -76,7 +76,7 @@
                     type="text"
                     id="name"
                     bind:value={formData.name}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   />
                 </div>
@@ -86,7 +86,7 @@
                     type="email"
                     id="email"
                     bind:value={formData.email}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   />
                 </div>
@@ -96,7 +96,7 @@
                     type="tel"
                     id="phone"
                     bind:value={formData.phone}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   />
                 </div>
@@ -112,7 +112,7 @@
                   <select
                     id="department"
                     bind:value={formData.department}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   >
                     <option value="">Select Department</option>
@@ -127,7 +127,7 @@
                     type="text"
                     id="doctor"
                     bind:value={formData.doctor}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                   />
                 </div>
                 <div>
@@ -136,7 +136,7 @@
                     type="date"
                     id="date"
                     bind:value={formData.date}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   />
                 </div>
@@ -145,7 +145,7 @@
                   <select
                     id="time"
                     bind:value={formData.time}
-                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                     required
                   >
                     <option value="">Select Time</option>
@@ -166,7 +166,7 @@
                   id="message"
                   bind:value={formData.message}
                   rows="4"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#3F7D20] focus:border-[#3F7D20]"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#5CA595] focus:border-[#5CA595]"
                   placeholder="Please provide any additional information that might help us better assist you."
                 ></textarea>
               </div>
@@ -174,7 +174,7 @@
 
             <button
               type="submit"
-              class="w-full bg-[#3F7D20] text-white px-6 py-3 rounded-md hover:bg-[#3F7D20]/90 transition-colors duration-200"
+              class="w-full bg-[#5CA595] text-white px-6 py-3 rounded-md hover:bg-[#5CA595]/90 transition-colors duration-200"
             >
               Book Appointment
             </button>
@@ -183,30 +183,14 @@
       </div>
     </div>
   </section>
+</div>
 
-  <!-- Additional Information Section -->
-  <section class="py-20 bg-[#3F7D20]/5">
-    <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto text-center" in:fade={{ duration: 500 }}>
-        <h2 class="text-3xl font-bold text-gray-900 mb-6">Need Help?</h2>
-        <p class="text-lg text-gray-600 mb-8">
-          If you have any questions or need assistance with booking your appointment, our team is here to help.
-        </p>
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
-          <a
-            href="/contact"
-            class="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-[#3F7D20] bg-white border border-[#3F7D20] rounded-md hover:bg-[#3F7D20]/10 transition-colors duration-200"
-          >
-            Contact Us
-          </a>
-          <a
-            href="tel:+15551234567"
-            class="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-[#3F7D20] border border-transparent rounded-md hover:bg-[#3F7D20]/90 transition-colors duration-200"
-          >
-            Call Us
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</div> 
+<style>
+  @font-face {
+    font-family: 'Ethnocentric';
+    src: url('/fonts/Ethnocentric Rg.otf') format('opentype');
+  }
+  .font-ethnocentric {
+    font-family: 'Ethnocentric', sans-serif;
+  }
+</style> 

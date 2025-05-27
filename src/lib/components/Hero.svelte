@@ -2,13 +2,13 @@
   import { fade } from 'svelte/transition';
 </script>
 
-<section class="relative bg-gradient-to-r from-[#3F7D20]/10 to-white">
+<section class="relative bg-gradient-to-r from-[#5CA595]/10 to-white">
   <div class="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <!-- Text Content -->
       <div class="space-y-8" in:fade={{ duration: 500 }}>
         <div class="space-y-2">
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#3F7D20] leading-tight">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#5CA595] leading-tight">
             Valsalya Speciality Clinic
           </h1>
           <p class="text-xl sm:text-2xl text-gray-600 italic">
@@ -19,10 +19,10 @@
           Welcome to Valsalya Speciality Clinic, your trusted healthcare partner. Our state-of-the-art facility combines cutting-edge medical technology with compassionate care. Led by experienced specialists and supported by a dedicated team of healthcare professionals, we are committed to providing personalized treatment plans and comprehensive care for all your medical needs.
         </p>
         <div class="flex gap-4">
-          <a href="/appointment" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#3F7D20] hover:bg-[#2E5D17] transition-colors duration-200">
+          <a href="/appointment" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#5CA595] hover:bg-[#5CA595]/90 transition-colors duration-200">
             Book Appointment
           </a>
-          <a href="/services" class="inline-flex items-center px-6 py-3 border border-[#3F7D20] text-base font-medium rounded-md text-[#3F7D20] hover:bg-[#3F7D20]/10 transition-colors duration-200">
+          <a href="/services" class="inline-flex items-center px-6 py-3 border border-[#5CA595] text-base font-medium rounded-md text-[#5CA595] hover:bg-[#5CA595]/10 transition-colors duration-200">
             Our Services
           </a>
         </div>
@@ -35,7 +35,7 @@
           alt="Modern medical clinic interior"
           class="absolute inset-0 w-full h-full object-cover"
         />
-        <div class="absolute inset-0 bg-gradient-to-r from-[#3F7D20]/20 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#5CA595]/20 to-transparent"></div>
       </div>
     </div>
   </div>

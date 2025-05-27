@@ -126,22 +126,6 @@
       </div>
     </div>
   </section>
-
-  <!-- CTA Section -->
-  <section class="py-16 bg-[#5CA595]">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold text-white mb-8">Ready to Get Started?</h2>
-      <p class="text-white/90 mb-8 max-w-2xl mx-auto">
-        Book your appointment today and experience the best healthcare services in town.
-      </p>
-      <a
-        href="/appointment"
-        class="inline-block bg-white text-[#5CA595] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"
-      >
-        Book an Appointment
-      </a>
-    </div>
-  </section>
 </div>
 
 <style>
