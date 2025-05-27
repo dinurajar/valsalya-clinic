@@ -78,8 +78,8 @@
     <div class="container mx-auto px-4">
       <div class="text-center mb-16" in:fade={{ duration: 500 }}>
         <h2 class="text-3xl font-bold text-black mb-4">Our Services</h2>
-        <p class="text-lg text-black max-w-2xl mx-auto whitespace-nowrap">
-          Experience the difference of patient-first care in a modern, well-equipped, and friendly environment
+        <p class="text-lg text-black max-w-2xl mx-auto">
+          Experience the difference of patient-first care in a modern, well-equipped, and friendly environment.
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -111,8 +111,9 @@
     <div class="container mx-auto px-4">
       <div class="text-center mb-16" in:fade={{ duration: 500 }}>
         <h2 class="text-3xl font-bold text-black mb-4">Our Doctors</h2>
-        <p class="text-lg text-black max-w-6xl mx-auto leading-relaxed">
-          We bring together a team of experienced doctors across multiple specialities, providing expert care under one roof.<br>
+        <p class="text-base md:text-lg text-black max-w-6xl mx-auto leading-relaxed px-4">
+          We bring together a team of experienced doctors across multiple specialities, providing expert care under one roof.
+          <br class="hidden md:block">
           Whether it's a routine consultation or an urgent medical need, Valsalya is your trusted healthcare partner day or night.
         </p>
       </div>
